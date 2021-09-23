@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+   <title>book</title>
+</head>
+
+<body>
+   <div class="container">
+      <header class="header">
+         <img src="img/tree black.png" alt="dots logo" class="logo">
+      </header>
+
+
+      <div class="content">
+         <nav class="sidebar">
+            <ul class="side-nav">
+               <li class="side-nav__item">
+                  <a href="index.html" class="side-nav__link">
+                     <span>Home</span>
+                  </a>
+               </li>
+               <li class="side-nav__item">
+                  <a href="book.html" class="side-nav__link">
+                     <span>Book</span>
+                  </a>
+               </li>
+               <li class="side-nav__item">
+                  <a href="reviews.html" class="side-nav__link">
+                     <span>Reviews</span>
+                  </a>
+               </li>
+               <li class="side-nav__item side-nav__item--active">
+                  <a href="Contact.html" class="side-nav__link ">
+                     <svg class="side-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                     </svg>
+                     <span>Contact</span>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+         <main class="hotel-view">
+            <div class="gallery">
+               <figure class="gallery__item">
+                  <img src="img/gnome.jpg" alt="Photo of hotel 1" class="gallery__photo">
+               </figure>
+
+               <figure class="gallery__item">
+                  <img src="img/gnome1.jpg" alt="Photo of hotel 2" class="gallery__photo">
+               </figure>
+
+               <figure class="gallery__item">
+                  <img src="img/gnome2.jpg" alt="Photo of hotel 3" class="gallery__photo">
+               </figure>
+            </div>
+            <div class="overview">
+               <h1 class="overview__heading">
+                  Dots Peaceful Spots
+               </h1>
+               <div class="overview__rating">
+                  <div class="overview__rating-average">Contact</div>
+               </div>
+            </div>
+            
+            <section class="section-book">
+               <form action="POST" data-netlify="true">
+                  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                  <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+                  <input type="submit" value="SUBMIT" />
+               </form>
+               <a id="contact"></a>
+
+
+            </section>
+
+
+
+
+
+
+         </main>
+      </div>
+   </div>
+
+
+</html>
