@@ -3,10 +3,6 @@
 /*
 COLORS
 
-Primary: #eb2f64
-Primary light: #FF3366
-Primary dark: #BA265D
-
 Grey light 1: #faf9f9
 Grey light 2: #f4f2f2
 Grey light 3: #f0eeee
@@ -19,9 +15,9 @@ Grey dark 3: #999
 */
 
 :root {
-    --color-primary: #eb2f64; 
-    --color-primary-light: #FF3366;
-    --color-primary-dark:#BA265D;
+    --color-primary: #795548; 
+    --color-primary-light: #6d4c41;
+    --color-primary-dark: #4e342e;
 
     --color-grey-light-1: #faf9f9;
     --color-grey-light-2: #f4f2f2;  
@@ -29,8 +25,8 @@ Grey dark 3: #999
     --color-grey-light-4: #ccc;
     
     --color-grey-dark-1: #333; 
-    --color-grey-dark-2: #777;
-    --color-grey-dark-3: #999;
+    --color-grey-dark-2: rgb(0, 0, 0);
+    --color-grey-dark-3: rgb(0, 0, 0);
 
     --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
     --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
@@ -41,8 +37,11 @@ Grey dark 3: #999
 $bp-largest: 75em;       // 1200px
 $bp-large: 68.75em;       // 1100px
 $bp-medium: 56.25em;       // 900px
+$bp-smallish: 43.75em; //700px  
 $bp-small: 37.5em;   //600px
 $bp-smallest: 31.25em;   //500px (500 / 16 = em)
+$bp-tiny: 17.1875em; //275px / 16 
+
 
 * {
     margin: 0;
@@ -78,3 +77,5 @@ body {
     min-height: 100vh; 
 
 }
+
+
