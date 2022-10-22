@@ -1,2 +1,2 @@
 # DotsSpots
-Website can be found at  https://dotspeacefulspots.com/
+A Tent/Trailor rental website build with a contact fourm 
